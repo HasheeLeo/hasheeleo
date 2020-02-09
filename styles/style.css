@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: #111111;
+  color: #EEEEEE;
+  font-family: 'Quicksand', sans-serif;
+}
+
+section {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+section.fading {
+  animation: fadeout 1s;
+}
+
+p.cool-text {
+  font-size: 4rem;
+}
+
+p.cool-subtext {
+  font-size: 2rem;
+}
+
+a {
+  color: #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover, a.active {
+  color: #E6AF2E;
+  border-bottom: 1px solid #E6AF2E;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeout {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}
