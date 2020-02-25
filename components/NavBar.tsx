@@ -13,6 +13,9 @@ const NavBar = () => {
           <Link href='/about'><a className={currentPath === '/about' ? 'active' : ''}>About</a></Link>
         </li>
         <li>
+          <Link href='/portfolio'><a className={currentPath === '/portfolio' ? 'active' : ''}>Portfolio</a></Link>
+        </li>
+        <li>
           <Link href='/contact'><a className={currentPath === '/contact' ? 'active' : ''}>Contact</a></Link>
         </li>
       </ul>
