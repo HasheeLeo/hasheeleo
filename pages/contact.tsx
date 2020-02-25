@@ -3,8 +3,11 @@ import {faFacebookF,faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-i
 
 const Contact = () => (
   <section>
-    <p className='cool-text'><a href='mailto:hashir@hashirahmad.com'>Send an Email</a></p>
-    <p className='cool-subtext'>You can contact me on the following channels as well:</p>
+    <p className='cool-subtext'>
+      If you want to work with me,&nbsp;
+      <a href='https://www.upwork.com/o/profiles/users/~01f3d7979ade77e02b/' target='_blank'>Contact Me on Upwork</a>.
+      If you just want to talk, you can get in touch through the following channels as well:
+    </p>
     <div>
       <a href='https://facebook.com/hashir.ahmad.6' title='Facebook Profile' target='_blank'>
         <FontAwesomeIcon icon={faFacebookF} />

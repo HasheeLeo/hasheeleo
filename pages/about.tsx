@@ -1,14 +1,13 @@
 const About = () => (
   <section>
-    <p className='cool-text'>I have been programming since I was 12.</p>
+    <p className='cool-text'>React Native Developer</p>
     <p className='cool-subtext'>
-      I am proficient in web development and app development in React/React Native. I have worked extensively in
-      Laravel. I am an expert in C/C++ and Java. I also work in deep learning using PyTorch. Currently, I am doing
-      research on change detection in remote sensing using convolutional neural networks with the aim to contribute
-      something meaningful to the field.
+      I love developing apps. From the design stage to the implementation to the deployment, I'm enthusiastic about it
+      all. When you work with me, what you get is a passionate, hard-working person who ensures your app gets the
+      perfection it deserves.
     </p>
     <p className='cool-subtext'>
-      When I am not programming, I love to read and write fantasy and dabble in world-building.
+      When I am not building apps, I love to read and write fantasy and dabble in world-building.
     </p>
   </section>
 );
