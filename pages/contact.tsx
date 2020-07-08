@@ -5,21 +5,23 @@ const Contact = () => (
   <section>
     <p className='cool-subtext'>
       If you want to work with me,&nbsp;
-      <a href='https://www.upwork.com/o/profiles/users/~01f3d7979ade77e02b/' target='_blank'>Contact Me on Upwork</a>.
+      <a href='https://www.upwork.com/o/profiles/users/~01f3d7979ade77e02b/' target='_blank' rel='noreferrer noopener'>
+        Contact Me on Upwork
+      </a>.
       If you just want to talk, you can get in touch through the following channels as well:
     </p>
     <div>
-      <a href='https://facebook.com/hashir.ahmad.6' title='Facebook Profile' target='_blank'>
+      <a href='https://facebook.com/hashir.ahmad.6' title='Facebook Profile' target='_blank' rel='noreferrer noopener'>
         <FontAwesomeIcon icon={faFacebookF} />
       </a>
     </div>
     <div>
-      <a href='https://linkedin.com/in/hashirahmad' title='LinkedIn Profile' target='_blank'>
+      <a href='https://linkedin.com/in/hashirahmad' title='LinkedIn Profile' target='_blank' rel='noreferrer noopener'>
         <FontAwesomeIcon icon={faLinkedinIn} />
       </a>
     </div>
     <div>
-      <a href='https://github.com/HasheeLeo' title='GitHub Profile' target='_blank'>
+      <a href='https://github.com/HasheeLeo' title='GitHub Profile' target='_blank' rel='noreferrer noopener'>
         <FontAwesomeIcon icon={faGithub} />
       </a>
     </div>
